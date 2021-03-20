@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LoadingLayout">
+        <attr name="loadingView" format="reference" />
+        <attr name="errorView" format="reference" />
+        <attr name="retryView" format="reference" />
+        <attr name="emptyView" format="reference" />
+    </declare-styleable>
+
+    <!-- loadingView的自定义属性-->
+    <declare-styleable name="UGLoadingView">
+        <attr name="borderWidth" format="dimension" />
+        <attr name="maxAngle" format="integer" />
+        <attr name="borderColor" format="color" />
+        <attr name="duration" format="integer" />
+    </declare-styleable>
+</resources>

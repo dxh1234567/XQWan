@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="imgUrl"
+            type="String" />
+
+        <variable
+            name="title"
+            type="String" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <cn.jj.base.common.drawable.RoundedImageView
+            android:id="@+id/icon_ib"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="13dp"
+            app:image="@{imgUrl}"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:src="@drawable/common_room_placeholder_icon"
+            />
+        <TextView
+
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/icon_ib"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="9dp"
+            android:textSize="9sp"
+            tools:text="微信"
+
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
