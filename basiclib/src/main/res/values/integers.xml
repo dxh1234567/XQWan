@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Popup items -->
+    <integer name="config_deepShortcutOpenDuration">420</integer>
+    <integer name="config_deepShortcutArrowOpenDuration">100</integer>
+    <integer name="config_deepShortcutOpenStagger">40</integer>
+
+    <integer name="config_deepShortcutCloseDuration">150</integer>
+    <integer name="config_deepShortcutCloseStagger">20</integer>
+    <integer name="config_removeNotificationViewDuration">300</integer>
+
+    <!--WheelStyle-->
+    <integer name="STYLE_NONE">0</integer>
+    <integer name="STYLE_HOUR">1</integer>
+    <integer name="STYLE_MINUTE">2</integer>
+    <integer name="STYLE_YEAR">3</integer>
+    <integer name="STYLE_MONTH">4</integer>
+    <integer name="STYLE_DAY">5</integer>
+    <integer name="STYLE_TEXT">6</integer>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="basic_selfie_camera_bg">#f9f9f9</color>
+
+    <color name="basic_long_click_guild">#33c4c2c4</color>
+    <color name="basic_theme_preview_title">#404040</color>
+    <color name="basic_theme_preview_author">#23beff</color>
+
+    <color name="basic_tab_indicator_text_selected">#494949</color>
+    <color name="basic_tab_indicator_text_unselected">#999999</color>
+
+    <color name="basic_long_press_guild_ok">#009688</color>
+
+    <color name="basic_track_normal">#ffb9b8b8</color>
+    <color name="basic_track_light_checked">#ff4db6ac</color>
+    <color name="basic_track_light_disabled">#1f000000</color>
+    <color name="basic_thumb_light_disabled">#ffBDBDBD</color>
+
+    <color name="basic_screen_bright_switch_thumb_normal">#ffb9b9b9</color>
+    <color name="basic_screen_bright_control_normal_half">#ffececec</color>
+    <color name="basic_screen_bright_control_activated_half">#ccf5fd</color>
+
+    <color name="basic_dialog_name">#404040</color>
+
+    <color name="basic_destription_text">#9a9a9a</color>
+
+    <color name="basic_color_change_panle">#43494c</color>
+
+    <color name="basic_ripple_rectangle_bg">#59c4c2c4</color>
+
+    <color name="basic_theme_button_bg">#689f38</color>
+
+    <color name="basic_page_activity_window_bg">#f6f6f6</color>
+
+    <color name="basic_liner_item_view_btn_text">#39daf7</color>
+
+    <color name="basic_radio_group_pressed_bg">#12000000</color>
+    <color name="basic_radio_group_normal_bg">#ffffff</color>
+
+    <color name="basic_edit_theme_icon_styles_text">#1a009688</color>
+
+    <color name="basic_panel_select_panel_title">#009688</color>
+
+    <color name="basic_rate_dialog_like">#ff3e82f7</color>
+
+    <color name="basic_common_panel_bg">#fafafa</color>
+    <color name="basic_theme_edit_float_btn_bg">#e1e1e0</color>
+
+    <color name="basic_dialog_title_color">#404040</color>
+    <color name="basic_dialog_button_text">#408ACE</color>
+
+    <color name="basic_rate_dialog_rating_empty">#dcdcdc</color>
+    <color name="basic_rate_dialog_rating_fill">#ffca28</color>
+
+    <color name="basic_linearitem_title">#333333</color>
+    <color name="basic_linearitem_desc">#666666</color>
+
+    <color name="basic_common_progress_bar_bg">#7fcac3</color>
+    <color name="basic_common_progress_bar_progress">#009688</color>
+
+    <color name="basic_notify_widget_on">#009e55</color>
+    <color name="basic_notify_widget_off">#999999</color>
+
+    <color name="basic_panel_pop_menu_text">#404040</color>
+    <color name="basic_default_theme_color">#2e3539</color>
+
+    <color name="basic_dot_indicator_color">#66ffffff</color>
+    <color name="basic_panel_view_anim_mask_bg">#19000000</color>
+
+    <color name="basic_welcome_guide_main">#ff009688</color>
+    <color name="basic_welcome_guide_blue">#ff3e82f7</color>
+    <color name="basic_welcome_guide_blue_translucent">#803e82f7</color>
+    <color name="basic_welcome_guide_green">#ff008844</color>
+    <color name="basic_welcome_guide_green_translucent">#80008844</color>
+    <color name="basic_welcome_guide_yellow">#fff19400</color>
+    <color name="basic_welcome_guide_indicator">#ffcccccc</color>
+    <color name="basic_welcome_guide_next_ripple">#33000000</color>
+    <color name="basic_mobvista_wall_bg_title">#ff223539</color>
+
+    <color name="basic_color_icon_text">#b8b8b8</color>
+
+    <color name="basic_user_home_bg">#f7f7f7</color>
+    <color name="basic_user_home_info_text">#22313f</color>
+    <color name="basic_user_home_exit_text">#333333</color>
+    <color name="basic_vip_purchase_wechat_btn_bg">#73d900</color>
+    <color name="basic_vip_purchase_alipay_btn_bg">#00a9f2</color>
+    <color name="basic_vip_purchase_title">#302608</color>
+    <color name="basic_feed_back_hint_text">#999999</color>
+    <color name="basic_feed_back_commit_btn_disable">#939d9f</color>
+    <color name="basic_accele_net_text">#fefefe</color>
+    <color name="basic_accele_net_status_good">#fff609</color>
+    <color name="basic_accele_net_status_bad">#ff376a</color>
+    <color name="basic_accele_net_error_text">#ff4158</color>
+    <color name="basic_accele_optimizable_view_bg">#1f3e5a</color>
+
+    <color name="basic_common_toast_default_color">#39daf7</color>
+
+    <color name="basic_wheel_color_edge">#9a9a9a</color>
+    <color name="basic_wheel_color_unselected">#6e6e6e</color>
+    <color name="basic_wheel_color_selected">#009688</color>
+    <color name="basic_wheel_color_diverline">#009688</color>
+
+    <color name="basic_default_background">#F3F3F3</color>
+
+    <color name="basic_dsb_progress_color">#ff009688</color>
+    <color name="basic_dsb_track_color">#ff939393</color>
+    <color name="basic_dsb_disabled_color">#66939393</color>
+    <color name="basic_dsb_ripple_color_pressed">#77939393</color>
+    <color name="basic_dsb_ripple_color_focused">#99999999</color>
+
+
+    <color name="basic_black_text">#333333</color>
+    <color name="basic_divider">#E5E5E5</color>
+    <color name="basic_primary">#FC3E5A</color>
+    <color name="basic_gray">#ffcccccc</color>
+    <color name="basic_transparent">#00000000</color>
+    <color name="basic_white">#ffffffff</color>
+    <color name="basic_ripple_color_primary">#1f000000</color>
+    <color name="basic_refresh_text">#a0bdd7</color>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--view 背景加载的tag-->
+    <item name="image_view_bg_target" type="id" />
+    <item name="image_view_src_target" type="id" />
+    <item name="view_constraintDimensionRatio" type="id" />
+    <item name="view_constraintHeight_max" type="id" />
+    <item name="view_constraintWidthPercent" type="id" />
+    <item name="view_constraintHeightPercent" type="id" />
+</resources>

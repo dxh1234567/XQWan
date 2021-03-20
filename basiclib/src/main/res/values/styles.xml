@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="custom_alter_dialog_style" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@drawable/common_dialog_window_background</item>
+    </style>
+
+
+    <style name="LinearItemViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/ripple_colorbg_rectangle</item>
+        <item name="LIV_itemCustomView">@integer/None</item>
+        <item name="LIV_iconWidth">@dimen/linear_item_icon_width</item>
+        <item name="LIV_iconHeight">@dimen/linear_item_icon_height</item>
+        <item name="LIV_itemIconTint">@color/basic_primary</item>
+        <item name="LIV_itemPaddingLeft">@dimen/linear_item_common_padding_left</item>
+        <item name="LIV_itemPaddingTop">@dimen/linear_item_common_padding_top</item>
+        <item name="LIV_itemPaddingRight">@dimen/linear_item_common_padding_right</item>
+        <item name="LIV_itemPaddingBottom">@dimen/linear_item_common_padding_bottom</item>
+        <item name="LIV_titleTextSize">@dimen/linear_item_bigger_title_size</item>
+        <item name="LIV_titleTextColor">@color/basic_linearitem_title</item>
+        <item name="LIV_descTextColor">@color/basic_linearitem_desc</item>
+        <item name="LIV_diverLine">@drawable/linear_item_divider</item>
+        <item name="LIV_titleToDescDistance">@dimen/linear_item_title_desc_padding</item>
+        <item name="LIV_titleToIconDistance">@dimen/linear_item_title_icon_padding</item>
+        <item name="LIV_descTextSize">@dimen/linear_item_desc_size</item>
+    </style>
+
+
+    <style name="ToastLinearItemViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/ripple_colorbg_rectangle</item>
+        <item name="LIV_itemCustomView">@integer/None</item>
+        <item name="LIV_iconWidth">@dimen/linear_item_icon_width</item>
+        <item name="LIV_iconHeight">@dimen/linear_item_icon_height</item>
+        <item name="LIV_itemPaddingLeft">@dimen/linear_item_common_padding_left</item>
+        <item name="LIV_itemPaddingTop">@dimen/linear_item_common_padding_top</item>
+        <item name="LIV_itemPaddingRight">@dimen/linear_item_common_padding_right</item>
+        <item name="LIV_itemPaddingBottom">@dimen/linear_item_common_padding_bottom</item>
+        <item name="LIV_titleTextSize">@dimen/linear_item_bigger_title_size</item>
+        <item name="LIV_titleTextColor">@color/basic_common_toast_default_color</item>
+        <item name="LIV_descTextSize">@dimen/linear_item_desc_size</item>
+        <item name="LIV_descTextColor">@color/basic_common_toast_default_color</item>
+        <item name="LIV_diverLine">@null</item>
+        <item name="LIV_titleToDescDistance">@dimen/linear_item_title_desc_padding</item>
+        <item name="LIV_titleToIconDistance">@dimen/linear_item_title_icon_padding</item>
+    </style>
+
+    <!--For DiscreteSeekBar-->
+    <style name="Widget.DiscreteSeekBar" parent="android:Widget">
+        <item name="dsb_indicatorTextAppearance">@style/Widget.DiscreteIndicatorTextAppearance
+        </item>
+        <item name="dsb_progressColor">@color/dsb_progress_color_list</item>
+        <item name="dsb_trackColor">@color/dsb_track_color_list</item>
+        <item name="dsb_rippleColor">@color/dsb_ripple_color_list</item>
+        <item name="dsb_indicatorColor">@color/basic_dsb_progress_color</item>
+        <item name="dsb_indicatorElevation">4dp</item>
+        <item name="dsb_mirrorForRtl">true</item>
+    </style>
+
+    <style name="Widget.DiscreteIndicatorTextAppearance" parent="android:TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+    <style name="BottomDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/bottom_dialog_animation</item>
+    </style>
+
+    <style name="CenterDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/center_dialog_animation</item>
+    </style>
+
+    <style name="RightDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/right_dialog_animation</item>
+    </style>
+    <style name="bottom_dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/anim_trans_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/anim_layout_bottom_out</item>
+    </style>
+
+    <style name="center_dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_anim_alpha_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_anim_alpha_scale_out</item>
+    </style>
+
+    <style name="right_dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_anim_trans_right_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_anim_trans_right_out</item>
+    </style>
+    <style name="DialogStyle.Alpha" parent="BottomDialogStyle">
+        <item name="android:windowAnimationStyle">@style/dialog_animation_alpha</item>
+    </style>
+
+    <style name="dialog_animation_alpha">
+        <item name="android:windowEnterAnimation">@anim/dialog_anim_alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_anim_alpha_out</item>
+    </style>
+
+    <style name="Toolbar.TitleText.Gone" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">0sp</item>
+        <item name="actionMenuTextColor">@color/basic_transparent</item>
+        <item name="android:textColor">@color/basic_transparent</item>
+    </style>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="actionMenuTextColor">@color/selector_toolbar_menu_color</item>
+        <item name="android:textColor">@color/basic_black_text</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Popup.Animation" parent="@android:style/Animation" />
+
+    <style name="Popup.Animation.PopUpMenu" />
+
+    <style name="Popup.Animation.PopUpMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+
+    <style name="Popup.Animation.PopUpMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="Popup.Animation.PopUpMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="Popup.Animation.PopDownMenu" />
+
+    <style name="Popup.Animation.PopDownMenu.Center">
+        <item name="android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+
+    <style name="Popup.Animation.PopDownMenu.Left">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="Popup.Animation.PopDownMenu.Right">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+
+
+
+
+    <style name="LoadingIndicatorView">
+        <item name="minWidth">48dip</item>
+        <item name="maxWidth">48dip</item>
+        <item name="minHeight">48dip</item>
+        <item name="maxHeight">48dip</item>
+    </style>
+
+    <style name="LoadingIndicatorView.Large">
+        <item name="minWidth">76dip</item>
+        <item name="maxWidth">76dip</item>
+        <item name="minHeight">76dip</item>
+        <item name="maxHeight">76dip</item>
+    </style>
+
+    <style name="LoadingIndicatorView.Small">
+        <item name="minWidth">24dip</item>
+        <item name="maxWidth">24dip</item>
+        <item name="minHeight">24dip</item>
+        <item name="maxHeight">24dip</item>
+    </style>
+</resources>

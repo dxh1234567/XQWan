@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="float_button_min_size">24dp</dimen>
+    <dimen name="float_button_max_size">72dp</dimen>
+
+    <dimen name="drawable_ring_size">4dip</dimen>
+    <dimen name="downloadlayout_textsize">14sp</dimen>
+
+    <!-- For list texts (top line) -->
+    <!-- For list texts (bottom line), summary texts, icon texts, descriptions, tag texts -->
+
+    <dimen name="recycleview_item_spacing">8dp</dimen>
+
+
+    <dimen name="btn_common_font_size">14sp</dimen>
+
+    <!--LinearItemView-->
+    <dimen name="linear_item_bigger_title_size">14sp</dimen>
+    <dimen name="linear_item_desc_size">14sp</dimen>
+    <dimen name="linear_item_common_padding_left">20dp</dimen>
+    <dimen name="linear_item_common_padding_right">20dp</dimen>
+    <dimen name="linear_item_common_padding_top">19dp</dimen>
+    <dimen name="linear_item_common_padding_bottom">19dp</dimen>
+    <dimen name="linear_item_title_desc_padding">10dp</dimen>
+    <dimen name="linear_item_icon_width">40dp</dimen>
+    <dimen name="linear_item_icon_height">40dp</dimen>
+    <dimen name="linear_item_title_icon_padding">16dp</dimen>
+
+    <!--dialog-->
+    <dimen name="dialog_title_padding_bottom">20dp</dimen>
+    <dimen name="dialog_title_padding_top">24dp</dimen>
+    <dimen name="dialog_title_padding_side">24dp</dimen>
+
+    <dimen name="dialog_message_padding_top">35dp</dimen>
+    <dimen name="dialog_message_padding_bottom">13dp</dimen>
+    <dimen name="dialog_message_padding_side">18dp</dimen>
+
+    <dimen name="dialog_button_top_padding">14dp</dimen>
+    <dimen name="dialog_button_top_large_padding">24dp</dimen>
+
+    <dimen name="dialog_message_textsize">19sp</dimen>
+    <dimen name="dialog_sub_message_textsize">15sp</dimen>
+    <dimen name="dialog_title_textsize">20sp</dimen>
+    <dimen name="dialog_button_textsize">15sp</dimen>
+
+    <dimen name="float_button_size">48dp</dimen>
+
+    <!--rateDialog-->
+    <dimen name="dialog_title_text_size">20sp</dimen>
+    <dimen name="dialog_message_text_size">14sp</dimen>
+    <dimen name="dialog_button_text_size">16sp</dimen>
+
+    <dimen name="dot_indicator_size">6dp</dimen>
+    <dimen name="dot_indicator_padding">1dp</dimen>
+
+    <dimen name="common_divider_height">0.5dp</dimen>
+
+    <dimen name="panel_pop_menu_text_size">16sp</dimen>
+
+    <dimen name="welcome_guide_indicator_size">8dp</dimen>
+
+    <dimen name="panel_item_icon_top_margin">12dp</dimen>
+
+    <!--user_home-->
+    <dimen name="user_home_name_size">16sp</dimen>
+    <dimen name="user_home_vip_time_size">13sp</dimen>
+    <dimen name="user_home_exit_size">14sp</dimen>
+    <dimen name="vip_purchase_size">17sp</dimen>
+    <dimen name="about_us_cur_version_size">11sp</dimen>
+    <dimen name="about_us_copyright_size">9sp</dimen>
+    <!--accele-->
+    <dimen name="accele_time_size">18sp</dimen>
+    <dimen name="accele_net_delay_size">28sp</dimen>
+    <dimen name="accele_net_delay_unit_size">11sp</dimen>
+    <dimen name="accele_net_status_size">23sp</dimen>
+    <dimen name="accele_dot_size">3dp</dimen>
+
+    <dimen name="rebound_toast_margin_bottom">20dp</dimen>
+    <dimen name="rebound_toast_margin_top">80dp</dimen>
+    <dimen name="rebound_toast_margin_side">80dp</dimen>
+
+    <dimen name="deep_shortcuts_elevation">9dp</dimen>
+    <dimen name="bg_popup_item_width">180dp</dimen>
+    <dimen name="bg_popup_item_height">44dp</dimen>
+    <dimen name="popup_items_spacing">4dp</dimen>
+    <dimen name="pre_drag_view_scale">6dp</dimen>
+    <!-- an icon with shortcuts must be dragged this far before the container is removed. -->
+    <dimen name="deep_shortcuts_start_drag_threshold">16dp</dimen>
+    <dimen name="deep_shortcut_icon_size">32dp</dimen>
+    <dimen name="deep_shortcut_drawable_padding">8dp</dimen>
+    <dimen name="deep_shortcut_drag_handle_size">16dp</dimen>
+
+
+    <dimen name="popup_padding_start">10dp</dimen>
+    <dimen name="popup_padding_end">16dp</dimen>
+    <dimen name="popup_padding_top">4dp</dimen>
+    <dimen name="popup_padding_bottom">4dp</dimen>
+    <dimen name="popup_arrow_width">10dp</dimen>
+    <dimen name="popup_arrow_height">8dp</dimen>
+    <dimen name="popup_arrow_vertical_offset">-2dp</dimen>
+    <!-- popup_padding_start + deep_shortcut_icon_size / 2 -->
+    <dimen name="popup_arrow_horizontal_center_start">28dp</dimen>
+    <!-- popup_padding_end + deep_shortcut_drag_handle_size / 2 -->
+    <dimen name="popup_arrow_horizontal_center_end">24dp</dimen>
+    <!-- popup_arrow_center_start - popup_arrow_width / 2-->
+    <dimen name="popup_arrow_horizontal_offset_start">23dp</dimen>
+    <!-- popup_arrow_center_end - popup_arrow_width / 2-->
+    <dimen name="popup_arrow_horizontal_offset_end">19dp</dimen>
+    <dimen name="popup_arrow_corner_radius">2dp</dimen>
+    <!-- popup_padding_start + icon_size + 10dp -->
+    <dimen name="deep_shortcuts_text_padding_start">56dp</dimen>
+    <!-- popup_item_width - deep_shortcuts_text_padding_start -->
+    <dimen name="deep_shortcuts_divider_width">128dp</dimen>
+    <dimen name="system_shortcut_icon_size">24dp</dimen>
+    <!-- popup_arrow_center_start - system_shortcut_icon_size / 2 -->
+    <dimen name="system_shortcut_margin_start">16dp</dimen>
+    <dimen name="system_shortcut_header_height">44dp</dimen>
+    <dimen name="bg_round_rect_radius">12dp</dimen>
+
+    <dimen name="wheel_textsize_edge">14sp</dimen>
+    <dimen name="wheel_textsize_selected">18sp</dimen>
+    <dimen name="wheel_textsize_unselected">15sp</dimen>
+
+    <dimen name="min_panel_height">200dp</dimen>
+    <dimen name="max_panel_height">400dp</dimen>
+
+    <dimen name="min_keyboard_height">80dp</dimen>
+    <dimen name="basic_margin_small">4dp</dimen>
+    <dimen name="basic_margin">8dp</dimen>
+    <dimen name="custom_alert_dialog_radius">10dp</dimen>
+    <dimen name="custom_tab_scrollable_min_width">64dp</dimen>
+
+</resources>

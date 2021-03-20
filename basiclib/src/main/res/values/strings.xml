@@ -1,0 +1,19 @@
+<resources>
+    <string name="basic_app_name">basiclib</string>
+
+    <string name="basic_date_second">秒</string>
+    <string name="basic_date_minute">分</string>
+    <string name="basic_date_hour">时</string>
+    <string name="basic_date_day">日</string>
+    <string name="basic_date_month">月</string>
+    <string name="basic_date_year">年</string>
+
+    <string name="basic_birth_date_picker_dialog_title">设置生日</string>
+    <string name="basic_year_month_picker_dialog_title">选择时间</string>
+    <string name="basic_area_picker_dialog_title">设置地区</string>
+    <string name="basic_cancel">取消</string>
+    <string name="basic_sure">确定</string>
+    <string name="basic_no_promp">以后不再提示</string>
+
+
+</resources>

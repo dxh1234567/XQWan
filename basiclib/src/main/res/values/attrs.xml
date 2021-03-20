@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="LoadingView">
+        <attr name="tickColor" format="color" />
+    </declare-styleable>
+
+    <!--为避免命名冲突，所有命名前加上LIV-->
+    <declare-styleable name="LinearItemView">
+        <!-- The source view to delegate touch presses events to. -->
+        <attr name="LIV_titleText" format="string" />
+        <attr name="LIV_titleTextSize" format="dimension" />
+        <attr name="LIV_titleTextColor" format="color" />
+        <attr name="LIV_titleTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+
+        <attr name="LIV_titleToDescDistance" format="dimension" />
+        <attr name="LIV_descToDescDistance" format="dimension" />
+        <attr name="LIV_titleToIconDistance" format="dimension" />
+
+        <attr name="LIV_descText" format="string" />
+        <attr name="LIV_descText2" format="string" />
+        <attr name="LIV_descTextSize" format="dimension" />
+        <attr name="LIV_descTextColor" format="color" />
+        <attr name="LIV_desc2TextColor" format="color" />
+        <attr name="LIV_descTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+
+        <attr name="LIV_valueText" format="string" />
+        <attr name="LIV_valueTextSize" format="dimension" />
+        <attr name="LIV_valueTextColor" format="color" />
+        <attr name="LIV_valueTextStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <!--icon-->
+        <attr name="LIV_itemIcon" format="reference" />
+        <attr name="LIV_itemIconTint" format="color" />
+        <attr name="LIV_iconWidth" format="dimension" />
+        <attr name="LIV_iconHeight" format="dimension" />
+        <!--tag icon-->
+        <attr name="LIV_itemTagIcon" format="reference" />
+        <attr name="LIV_tagIconWidth" format="dimension" />
+        <attr name="LIV_tagIconHeight" format="dimension" />
+        <attr name="LIV_tagIconPositionType" format="integer" />
+
+        <attr name="LIV_itemPaddingLeft" format="dimension" />
+        <attr name="LIV_itemPaddingRight" format="dimension" />
+        <attr name="LIV_itemPaddingTop" format="dimension" />
+        <attr name="LIV_itemPaddingBottom" format="dimension" />
+
+        <attr name="LIV_itemCustomView" format="integer" />
+
+        <!--注意：设置了LIV_diverLine后，其他选项将不生效-->
+        <attr name="LIV_diverLine" format="reference" />
+        <attr name="LIV_diverLineHeight" format="dimension" />
+        <attr name="LIV_diverLineColor" format="color" />
+        <attr name="LIV_diverLineShowType">
+            <flag name="top" value="0x1" />
+            <flag name="bottom" value="0x2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TagLinearItemView">
+        <attr name="LIV_tagIcon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="WheelView">
+        <attr name="itemHeight" format="dimension" />
+        <attr name="itemNumber" format="integer" />
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="selectedTextSize" format="dimension" />
+        <attr name="edgeTextColor" format="color" />
+        <attr name="edgeTextSize" format="dimension" />
+        <attr name="wheelStyle" format="integer" />
+        <attr name="splitLineColor" format="color" />
+        <attr name="splitLineWidthRatio" format="float" />
+        <attr name="showUnit" format="boolean" />
+        <attr name="setDefaultWheelData" format="boolean" />
+    </declare-styleable>
+
+
+    <attr name="memoryPolicy">
+        <flag name="NO_CACHE" value="0x1" />
+        <flag name="NO_STORE" value="0x2" />
+    </attr>
+
+    <declare-styleable name="ClipImageView">
+        <attr name="clip_width" format="dimension" />
+        <attr name="clip_height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="LineWaveView">
+        <attr name="lv_line_color" format="color" />
+        <attr name="lv_line_num" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CommonRadioGroup">
+        <attr name="itemLayout" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AlignTextView">
+        <attr name="alignOnlyOneLine" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="AlignTextView2">
+        <attr name="align">
+            <flag name="left" value="0" />
+            <flag name="center" value="1" />
+            <flag name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Theme">
+        <attr name="discreteSeekBarStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="DiscreteSeekBar">
+        <attr name="dsb_min" format="integer|dimension" />
+        <attr name="dsb_max" format="integer|dimension" />
+        <attr name="dsb_value" format="integer|dimension" />
+        <attr name="dsb_mirrorForRtl" format="boolean" />
+        <attr name="dsb_allowTrackClickToDrag" format="boolean" />
+        <attr name="dsb_progressColor" format="color|reference" />
+        <attr name="dsb_trackColor" format="color|reference" />
+        <attr name="dsb_indicatorTextAppearance" format="reference" />
+        <attr name="dsb_indicatorColor" format="color|reference" />
+        <attr name="dsb_indicatorElevation" format="dimension" />
+        <attr name="dsb_indicatorFormatter" format="string|reference" />
+        <attr name="dsb_rippleColor" format="color|reference" />
+        <attr name="dsb_indicatorPopupEnabled" format="boolean" />
+        <attr name="dsb_trackHeight" format="integer|dimension" />
+        <attr name="dsb_trackBaseHeight" format="integer|dimension" />
+        <attr name="dsb_scrubberHeight" format="integer|dimension" />
+        <attr name="dsb_thumbSize" format="integer|dimension" />
+        <attr name="dsb_indicatorSeparation" format="integer|dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="BeautyBox">
+        <attr name="checked" format="boolean" />
+        <attr name="open" format="boolean" />
+        <attr name="checked_model" format="integer">
+            <flag name="radio" value="1" />
+            <flag name="open" value="2" />
+            <flag name="open_double" value="3" />
+        </attr>
+        <attr name="drawable_open_normal" format="reference" />
+        <attr name="drawable_open_checked" format="reference" />
+        <attr name="drawable_close_normal" format="reference" />
+        <attr name="drawable_close_checked" format="reference" />
+        <attr name="text_normal" format="string" />
+        <attr name="text_double" format="string" />
+        <attr name="textColor_normal" format="reference|color" />
+        <attr name="textColor_checked" format="reference|color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TabLayout">
+        <attr name="tabTextLayout" format="integer" />
+        <attr name="tabSaleEnable" format="boolean" />
+        <attr name="tabMaxScale" format="float" />
+        <attr name="tabIndicatorWidth" format="dimension" />
+        <attr name="tabBackgroundMargin" format="dimension" />
+        <attr name="tabSelectedBold" format="boolean" />
+        <attr name="tabUnselectedIndicatorColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CodeEditText">
+        <attr name="figures" format="integer" />
+        <attr name="verCodeMargin" format="dimension" />
+        <attr name="bottomLineSelectedColor" format="reference" />
+        <attr name="bottomLineNormalColor" format="reference" />
+        <attr name="bottomLineHeight" format="dimension" />
+        <attr name="selectedBackgroundColor" format="reference" />
+        <attr name="cursorDuration" format="integer" />
+        <attr name="cursorWidth" format="dimension" />
+        <attr name="cursorColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadingIndicatorView">
+        <attr name="minWidth" format="dimension" />
+        <attr name="maxWidth" format="dimension"/>
+        <attr name="minHeight" format="dimension" />
+        <attr name="maxHeight" format="dimension"/>
+        <attr name="indicatorColor" format="color"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension" />
+        <attr name="riv_corner_radius_top_left" format="dimension" />
+        <attr name="riv_corner_radius_top_right" format="dimension" />
+        <attr name="riv_corner_radius_bottom_left" format="dimension" />
+        <attr name="riv_corner_radius_bottom_right" format="dimension" />
+        <attr name="riv_border_width" format="dimension" />
+        <attr name="riv_border_color" format="color" />
+        <attr name="riv_mutate_background" format="boolean" />
+        <attr name="riv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+
+
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

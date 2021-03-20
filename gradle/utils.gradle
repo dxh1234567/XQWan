@@ -1,0 +1,45 @@
+import groovy.io.FileType
+
+import java.util.regex.Pattern
+
+def isAndroidProject() {
+    def plugins = project.getPlugins()
+    return plugins.hasPlugin('com.android.application') || plugins.hasPlugin('com.android.library')
+}
+
+def getStringProperty(String propertyName) {
+    return project.hasProperty(propertyName) ? project.getProperty(propertyName) : ""
+}
+
+def getBooleanProperty(String propertyName) {
+    return project.hasProperty(propertyName) ? Boolean.parseBoolean(project.getProperty(propertyName)) : false
+}
+
+def getIntProperty(String propertyName) {
+    return project.hasProperty(propertyName) ? Integer.parseInt(project.getProperty(propertyName)) : false
+}
+
+def getArrayProperty(String propertyName) {
+    return project.hasProperty(propertyName) ? project.getProperty(propertyName) : []
+}
+
+def findFile(String path, Pattern pattern, Closure<String> closure) {
+    try {
+        new File(path).eachFileRecurse(FileType.FILES) {
+            if (it.name =~ pattern) {
+                closure.call(it.path)
+            }
+        }
+    } catch (Exception e) {
+        println("findFile fail ${e.toString()}")
+    }
+}
+
+ext {
+    isAndroidProject = this.&isAndroidProject
+    getStringProperty = this.&getStringProperty
+    getIntProperty = this.&getIntProperty
+    getBooleanProperty = this.&getBooleanProperty
+    getArrayProperty = this.&getArrayProperty
+    findFile = this.&findFile
+}

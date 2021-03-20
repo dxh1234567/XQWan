@@ -1,0 +1,104 @@
+dependencies {
+    api deps.support.app_compat
+    api deps.support.annotations
+    api deps.support.multidex
+    api deps.support.recyclerview
+    api deps.support.cardview
+    api deps.support.design
+    api deps.support.animation
+    api deps.support.viewpager2
+    api deps.support.swiperefreshlayout
+    api deps.navigation.fragment_ktx
+    api deps.navigation.ui_ktx
+    api deps.lifecycle.extensions
+    api deps.lifecycle.java8
+    api deps.lifecycle.runtime_ktx
+    api deps.lifecycle.livedata_ktx
+    api deps.paging.runtime
+    api deps.room.runtime
+    api deps.room.ktx
+    api deps.room.rxjava2
+    kapt deps.room.compiler
+    api deps.constraint_layout
+    api deps.transition
+
+    api deps.kotlin.stdlib
+    api deps.kotlin.anko
+    api deps.kotlin.ankodesign
+    api deps.kotlin.reflect
+    api deps.kotlin.coroutines
+
+
+
+    api(deps.retrofit.runtime) {
+        exclude group: 'com.squareup.okhttp3'
+    }
+    api(deps.retrofit.gson) {
+        exclude group: 'com.squareup.okhttp3'
+    }
+    api(deps.retrofit.adapter) {
+        exclude group: 'com.squareup.okhttp3'
+    }
+    api deps.okhttp
+    api deps.okhttp_logging_interceptor
+
+    api deps.rxjava2
+    api deps.rx_android
+
+    api deps.glide.runtime
+    kapt deps.glide.compiler
+
+    api deps.timber
+    api deps.rebound
+
+    api deps.kotlinpoet
+    api deps.javapoet
+
+    api deps.koin
+//    api deps.faceunity
+    api deps.danmaku
+    api 'com.github.ctiao:ndkbitmap-armv7a:0.9.21'
+
+    api deps.airbnb.epoxy
+    api deps.airbnb.epoxy_databinding
+    api deps.airbnb.epoxy_annotations
+    api deps.airbnb.epoxy_paging
+    api deps.airbnb.lottie
+    api deps.airbnb.paris
+    api deps.airbnb.mvrx
+    kapt deps.airbnb.epoxy_processor
+
+    api deps.ali.player
+    api deps.ali.conan
+
+    api deps.refresh_layout
+    api deps.refresh_header
+
+//    api deps.componentcore.componentlib
+//    api deps.componentcore.router_anno
+//    kapt deps.componentcore.router_anno_compiler
+    api deps.walle
+
+    api deps.umeng.common
+    api deps.umeng.analytics
+
+    api deps.exoplayer.core
+    api deps.exoplayer.ui
+
+    api deps.bugly.crashreport_upgrade
+    api deps.bugly.bugly_native
+    api deps.tinker
+
+    api deps.zxing
+    api deps.panel
+    api deps.mqtt
+    api 'com.tencent.mars:mars-xlog:1.2.5'
+
+//    releaseApi deps.leakcanary.release
+
+    debugApi deps.leakcanary.debug
+}
+
+configurations {
+    all*.exclude group: 'com.android.support'
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--LinearItemView customview type-->
+    <integer name="None">0</integer>
+    <integer name="CheckBox">1</integer>
+    <integer name="Switcher">2</integer>
+    <integer name="More">3</integer>
+    <integer name="Button">4</integer>
+    <integer name="Radio">5</integer>
+    <integer name="Label">6</integer>
+
+    <!--LinearItemView tag drawale position type-->
+    <integer name="topRight">1</integer>
+    <integer name="topLeft">2</integer>
+    <integer name="bottomRight">3</integer>
+    <integer name="bottomLeft">4</integer>
+
+
+    <!--LinearItemView diver show type-->
+    <integer name="alignTop">1</integer>
+    <integer name="alignBottom">2</integer>
+
+</resources>
