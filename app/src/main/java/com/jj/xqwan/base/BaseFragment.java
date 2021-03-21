@@ -21,15 +21,18 @@ import com.jj.xqwan.view.LoadingLayout;
 
 import java.util.List;
 
+import cn.jj.base.baseclass.OnBackListener;
+import cn.jj.base.common.helper.FragmentBackHandler;
+
 
 /**
  * BaseFragment----
  *
  * @author luomin
  */
-public abstract class BaseFragment extends Fragment
+public  abstract class BaseFragment extends Fragment
         implements BaseContractNew.BaseView, LoadingLayout.EmptyRefreshListener,
-        LoadingLayout.ErrorRefreshListener {
+        LoadingLayout.ErrorRefreshListener , OnBackListener {
     protected final String TAG = this.getClass().getSimpleName();
     protected Activity activity;
 
@@ -308,12 +311,13 @@ public abstract class BaseFragment extends Fragment
         return null;
     }
 
-    public boolean onBackPress() {
-        return false;
-    }
 
     public void finish() {
     }
 
+    @Override
+    public boolean onBackPressed() {
+        return FragmentBackHandler.INSTANCE.handleBackPress(this);
+    }
 }
 

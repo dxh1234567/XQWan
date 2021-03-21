@@ -1,18 +1,17 @@
 package com.jj.xqwan
 
+import android.app.Activity
+import android.content.res.Configuration
 import android.graphics.Color
 import android.os.Bundle
+import androidx.annotation.CallSuper
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
-import androidx.navigation.Navigation
-import androidx.navigation.fragment.DialogFragmentNavigator
-import androidx.navigation.get
-import com.jj.xqwan.activity.home.SettingFragmentType
+import cn.jj.base.common.helper.FragmentBackHandler.handleBackPress
 import com.jj.xqwan.activity.home.TAG_USER_PAGE_TYPE
-import com.jj.xqwan.activity.home.getDestId
-import kotlinx.coroutines.CoroutineScope
 
-class MainActivity : AppCompatActivity() {
+open class MainActivity : AppCompatActivity() {
     private var pageType = 1
     private lateinit var navController: NavController
 
@@ -26,4 +25,31 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+    @CallSuper
+    override fun onBackPressed() {
+        try {
+            if (!handleBackPress(this)) {
+                if (!dealBack()) {
+                    super.onBackPressed()
+                }
+            }
+        } catch (e: Exception) {
+            //java.lang.IllegalStateException: Can not perform this action after onSaveInstanceState
+            finish()
+        }
+    }
+
+
+    private fun dealBack(): Boolean {
+        return false
+    }
+
+}
+
+fun Activity.isLandscape(): Boolean {
+    return resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE
+}
+
+fun Fragment.isLandscape(): Boolean {
+    return resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE
 }

@@ -15,4 +15,14 @@
         <attr name="borderColor" format="color" />
         <attr name="duration" format="integer" />
     </declare-styleable>
+
+    <declare-styleable name="AdvanceImageView">
+        <attr name="AI_isCircle" format="boolean" />
+        <attr name="AI_cornerRadiusPercent" format="float" />
+        <attr name="AI_cornerRadius" format="dimension" />
+        <attr name="AI_corners" format="integer" />
+        <attr name="AI_bgStroke" format="dimension" />
+        <attr name="AI_bgDrawable" format="reference" />
+        <attr name="AI_fgDrawable" format="reference" />
+    </declare-styleable>
 </resources>

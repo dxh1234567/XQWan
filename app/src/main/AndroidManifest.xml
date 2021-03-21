@@ -23,7 +23,9 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/AppTheme.NoActionBar">
+            <nav-graph android:value="@navigation/setting_navigation"/>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -6,5 +6,6 @@
     <color name="deepgray">#ff333333</color>
     <color name="full_transparent">#00000000</color>
     <color name="transparent">#55000000</color>
+    <color name="common_black">#000000</color>
 
 </resources>

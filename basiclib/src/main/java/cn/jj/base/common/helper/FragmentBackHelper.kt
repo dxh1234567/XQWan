@@ -16,6 +16,7 @@ object FragmentBackHandler {
      * @see #handleBackPress(Fragment)
      * @see #handleBackPress(FragmentActivity)
      */
+    @JvmStatic
     fun handleBackPress(fm: FragmentManager): Boolean {
         fm.fragments.forEach {
             if (isFragmentBackHandled(it)
@@ -29,6 +30,8 @@ object FragmentBackHandler {
         }
         return false
     }
+
+
 
     /**
      * 将back事件分发给Fragment中的子Fragment,
