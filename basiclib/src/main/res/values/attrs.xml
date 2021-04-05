@@ -6,6 +6,23 @@
         <attr name="tickColor" format="color" />
     </declare-styleable>
 
+
+
+    <declare-styleable name="LoadingLayout">
+        <attr name="loadingView" format="reference" />
+        <attr name="errorView" format="reference" />
+        <attr name="retryView" format="reference" />
+        <attr name="emptyView" format="reference" />
+    </declare-styleable>
+    <!-- loadingView的自定义属性-->
+    <declare-styleable name="UGLoadingView">
+        <attr name="borderWidth" format="dimension" />
+        <attr name="maxAngle" format="integer" />
+        <attr name="borderColor" format="color" />
+        <attr name="duration" format="integer" />
+    </declare-styleable>
+
+
     <!--为避免命名冲突，所有命名前加上LIV-->
     <declare-styleable name="LinearItemView">
         <!-- The source view to delegate touch presses events to. -->

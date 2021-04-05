@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-    <cn.jj.base.common.view.WheelView
+    <com.jj.base.common.view.WheelView
         android:id="@+id/first_wheel"
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -15,7 +15,7 @@
         app:splitLineWidthRatio="0.5"
         app:wheelStyle="@integer/STYLE_YEAR" />
 
-    <cn.jj.base.common.view.WheelView
+    <com.jj.base.common.view.WheelView
         android:id="@+id/second_wheel"
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -25,7 +25,7 @@
         app:splitLineWidthRatio="0.5"
         app:wheelStyle="@integer/STYLE_MONTH" />
 
-    <cn.jj.base.common.view.WheelView
+    <com.jj.base.common.view.WheelView
         android:id="@+id/third_wheel"
         android:layout_width="0dp"
         android:layout_height="match_parent"

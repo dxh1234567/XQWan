@@ -44,7 +44,7 @@ dependencies {
 project.apply from: rootProject.file('gradle/thridlib.gradle')
 
 project.afterEvaluate { project ->
-    project.group = "cn.jj"
+    project.group = "com.jj"
     project.version = '1.2.8'
     project.ext {
         mavLibraryLicenses = ["Apache-2.0": 'http://www.apache.org/licenses/LICENSE-2.0.txt']

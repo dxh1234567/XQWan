@@ -119,4 +119,9 @@
     <color name="basic_ripple_color_primary">#1f000000</color>
     <color name="basic_refresh_text">#a0bdd7</color>
 
+    <color name="full_transparent">#00000000</color>
+    <color name="transparent">#55000000</color>
+    <color name="deepgray">#ff333333</color>
+
+
 </resources>
