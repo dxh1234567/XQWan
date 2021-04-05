@@ -7,7 +7,7 @@ import android.util.Log
 import android.view.MotionEvent
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
-import cn.jj.base.utils.ViewUtil
+import com.jj.base.utils.ViewUtil
 
 
 /**

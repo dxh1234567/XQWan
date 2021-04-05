@@ -2,7 +2,6 @@ package com.jj.xqwan.base.net.http.adapter
 
 import android.util.Log
 import androidx.lifecycle.LiveData
-import cn.jj.base.utils.LogUtil
 import com.jj.xqwan.base.ApiResponse
 import retrofit2.Call
 import retrofit2.CallAdapter

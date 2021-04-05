@@ -16,10 +16,10 @@ import androidx.dynamicanimation.animation.DynamicAnimation
 import androidx.dynamicanimation.animation.FloatPropertyCompat
 import androidx.dynamicanimation.animation.SpringAnimation
 import androidx.dynamicanimation.animation.SpringForce
-import cn.jj.base.common.ThreadManager
-import cn.jj.base.common.anim.AnimUtils
-import cn.jj.base.utils.ScreenUtil
-import cn.jj.base.utils.Utility
+import com.jj.base.common.ThreadManager
+import com.jj.base.common.anim.AnimUtils
+import com.jj.base.utils.ScreenUtil
+import com.jj.base.utils.Utility
 import com.airbnb.lottie.LottieAnimationView
 import com.jj.xqwan.R
 import com.jj.xqwan.constant.RoomConstant

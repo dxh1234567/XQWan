@@ -2,12 +2,11 @@ package com.jj.xqwan.activity.home
 
 import com.jj.xqwan.R
 import com.jj.xqwan.isLandscape
-import com.jj.xqwan.base.BaseFragment
+import com.jj.base.baseclass.BaseFragment
 import android.content.pm.ActivityInfo
 import android.content.res.Configuration
-import com.jj.xqwan.entity.GuessGameResultInfo
-import com.jj.xqwan.entity.GuessGamePromotionInfo
 import androidx.constraintlayout.widget.ConstraintSet
+import com.jj.xqwan.activity.ui.dialog.GuideDynamicListDialog
 import kotlinx.android.synthetic.main.fragment_circle.*
 
 
@@ -27,16 +26,19 @@ class CircleFragment : BaseFragment() {
             clone(requireContext(), R.layout.fragment_circle_land)
         }
         btn1.setOnClickListener {
-            val guessGamePromotionInfo = GuessGamePromotionInfo()
-            guessGamePromotionInfo.resultInfo = GuessGameResultInfo().also {
-                it.userNickName = "用户的昵称"
-                it.hostNickName = "主播的昵称"
-                it.userAvatar =
-                    "https://www.paixin.com/static/img/2t4qgvwrg45wt54q3gfrefgvw45ygfvbwt5y.d9d53b4.png"
-                it.hostAvatar =
-                    "https://www.paixin.com/static/img/2t4qgvwrg45wt54q3gfrefgvw45ygfvbwt5y.d9d53b4.png"
-            }
-            guessing_view.setPromotion(guessGamePromotionInfo)
+
+
+            GuideDynamicListDialog(requireContext()).show()
+//            val guessGamePromotionInfo = GuessGamePromotionInfo()
+//            guessGamePromotionInfo.resultInfo = GuessGameResultInfo().also {
+//                it.userNickName = "用户的昵称"
+//                it.hostNickName = "主播的昵称"
+//                it.userAvatar =
+//                    "https://www.paixin.com/static/img/2t4qgvwrg45wt54q3gfrefgvw45ygfvbwt5y.d9d53b4.png"
+//                it.hostAvatar =
+//                    "https://www.paixin.com/static/img/2t4qgvwrg45wt54q3gfrefgvw45ygfvbwt5y.d9d53b4.png"
+//            }
+//            guessing_view.setPromotion(guessGamePromotionInfo)
         }
     }
 

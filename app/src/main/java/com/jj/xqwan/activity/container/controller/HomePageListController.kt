@@ -1,14 +1,10 @@
 package com.jj.xqwan.activity.container.controller
 
-import androidx.constraintlayout.widget.Placeholder
-import cn.jj.base.common.ThreadManager
+import com.jj.base.common.ThreadManager
 import com.airbnb.epoxy.EpoxyModel
 import com.airbnb.epoxy.paging.PagedListEpoxyController
 import com.jj.xqwan.LayoutPlachoderBindingModel_
-import com.jj.xqwan.activity.home.epmodels.ShowRoomItemEpoxyHolder
 import com.jj.xqwan.activity.home.epmodels.ShowRoomItemEpoxyHolder_
-import com.jj.xqwan.databinding.EpoxyLayoutPlachoderBinding
-import com.jj.xqwan.databinding.ShowRoomHolderItemDatabinding2Binding
 import com.jj.xqwan.entity.HomeItemInfo
 import com.jj.xqwan.entity.HomeItemType
 

@@ -1,6 +1,5 @@
 package com.jj.xqwan.base
 
-import cn.jj.base.utils.Constant
 import com.jj.xqwan.base.net.ErrCode
 import com.jj.xqwan.base.net.NetworkException
 import com.jj.xqwan.base.net.TOKEN_ERROR_CODE
@@ -13,8 +12,8 @@ import com.jj.xqwan.base.net.TOKEN_ERROR_CODE
 
 import android.text.TextUtils
 import android.util.Log
-import cn.jj.base.utils.ToastUtil
-import cn.jj.base.utils.Utility
+import com.jj.base.utils.ToastUtil
+import com.jj.base.utils.Utility
 import retrofit2.Response
 import java.net.ConnectException
 import java.net.SocketTimeoutException

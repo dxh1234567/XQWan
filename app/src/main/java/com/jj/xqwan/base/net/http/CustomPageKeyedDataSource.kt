@@ -10,7 +10,7 @@ import androidx.annotation.WorkerThread
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
 import androidx.paging.PageKeyedDataSource
-import cn.jj.base.common.ThreadManager
+import com.jj.base.common.ThreadManager
 import com.jj.xqwan.entity.ItemInfo
 import com.jj.xqwan.base.net.Resource
 import java.util.concurrent.atomic.AtomicBoolean

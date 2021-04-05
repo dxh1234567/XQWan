@@ -7,14 +7,13 @@ import com.jj.xqwan.R
 import com.jj.xqwan.activity.container.controller.HomePageListController
 import com.jj.xqwan.activity.container.viewmodels.DataViewModelFactory
 import com.jj.xqwan.activity.home.viewmodels.HomeViewModel
-import com.jj.xqwan.base.BaseFragment
+import com.jj.base.baseclass.BaseFragment
 import com.jj.xqwan.base.net.app.DataRepository
 import com.jj.xqwan.common.Constant
 import com.jj.xqwan.view.TurnTableView
 import kotlinx.android.synthetic.main.fragment_home.*
 import java.util.*
 import kotlin.collections.ArrayList
-import kotlin.coroutines.CoroutineContext
 
 
 /**

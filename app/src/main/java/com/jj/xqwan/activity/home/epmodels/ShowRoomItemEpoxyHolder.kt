@@ -3,8 +3,8 @@ package com.jj.xqwan.activity.home.epmodels
 import android.text.TextUtils
 import android.widget.ImageView
 import android.widget.TextView
-import cn.jj.base.common.glide.GlideApp
-import cn.jj.base.common.helper.KotlinEpoxyHolder
+import com.jj.base.common.glide.GlideApp
+import com.jj.base.common.helper.KotlinEpoxyHolder
 import com.airbnb.epoxy.EpoxyAttribute
 import com.airbnb.epoxy.EpoxyModelClass
 import com.airbnb.epoxy.EpoxyModelWithHolder

@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <cn.jj.base.common.drawable.RoundedImageView
+        <com.jj.base.common.drawable.RoundedImageView
             android:id="@+id/icon_ib"
             android:layout_width="match_parent"
             android:layout_height="100dp"
